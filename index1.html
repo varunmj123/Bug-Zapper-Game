@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+      <meta charset="utf-8">
+      <title>Bacteria Zapper</title>
+   </head>
+   <body onload="main()">
+         <canvas id="gameSurface" width="600" height="600">
+            use browser that supports canvas
+         </canvas>
+         <canvas style= "  position: absolute; pointer-events: none; left: 0px; top: 0px" id="particles" width="600" height="600"></canvas>
+         <canvas  style= "   position: absolute; pointer-events: none; left: 0px; top: 0px z-index: 2;"id="text" width="600" height="600"></canvas>
+      <script src="app.js"> </script>
+      <h1> Score <span id="scoreDisplay"></span></h1>  
+   </body>
+</html>
